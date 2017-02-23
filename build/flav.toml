@@ -1,0 +1,890 @@
+[[global]]
+name = "Hire An Intern"
+money_cost = 350
+flavours = [
+    """You owe your brother a favour for helping you complete popular game \
+    Dark Spirits 2. You reluctantly hire his son as an intern.""",
+    
+    """A student from the local university comes forward asking for a year in \
+    industry as part of his degree course. He is predicted a first and is \
+    fluent in C, C++, Java and Rust. You hire him for half the price.""",
+    
+    """You end up at a bar after a long day at work and start chatting to a \
+    motivated young game developer. Since game developer work for pennies, he \
+    leaps at a chance to work as an intern at your software engineering \
+    company.""",
+    
+    """You host a hackathon in order to find bright young talent in the \
+    software engineering industry. As a reward for winning the competition, an \
+    individual gains the chance to work as an intern for your company. You \
+    hire this intern for half-price."""
+]
+
+[[global]]
+name = "Gain 12 Productivity"
+money_cost = 100
+productivity_cost = 8
+flavours = [
+    """You throw an office party for you and your team to let off some \
+    steam.""",
+    
+    """You put in a brand new vending machine providing lots of sugary, high \
+    energy drinks. The development team is buzzing""",
+    
+    """You replace all the gross synthetic keyboards with brand new fancy \
+    mechanical keyboards. The development team just love the clicking sound \
+    and can't stop using the keyboard.""",
+    
+    """You implement standing desks across your whole work-force.""",
+    
+    """You and your team watch a YouCylinder tutorial: 10 Ways to improve your \
+    Software Project. You find 10 ways to improve your software project.""",
+    
+    """You expand your office space to include a games room with ping pong \
+    tables and basketball hoops.""",
+    
+    """Your team enforces a new employee lounge with comfy reclining seats.""",
+    
+    """Zark Muckerburg comes to give an inspirational talk on how he rose to \
+    success with his website HeadPage. You and your employees are motivated to \
+    work harder and achieve more."""
+]
+
+[[global]]
+name = "Lose 12 Productivity"
+money_cost = 100
+productivity_cost = 8
+flavours = [
+    """The air conditioning in your office breaks. All your team are hot and \
+    uncomfortable!""",
+    
+    """The new expansion for Planet of Conflict-Craft(PoC) has just been \
+    released and most of your employees turn up to work late the next day.""",
+    
+    """Big John floods the toilet. Again. No one dares to enter and have to \
+    use the public toilets across the street. Added to which the office \
+    smells.""",
+    
+    """The cleaners forgot to put up a wet floor sign after their rounds last \
+    night, an employee slips and breaks their left wrist.""",
+    
+    """A new cold virus is spreading round the workplace and everyone is \
+    sick.""",
+    
+    """An employee's pet cat has just died from an unfortunate accident with a \
+    bowl. They miss a few days of work.""",
+    
+    """The team are in dispute over a critical decision in the development \
+    process, they spend days bickering about it.""",
+    
+    """There's friction between two of your employees, something the kids \
+    these days are calling 'banter'. One of them feels demoralized and is less \
+    productive."""
+]
+
+[[global]]
+name = "Lose a Turn"
+money_cost = 150
+productivity_cost = 7
+flavours = [
+    """One of your employees spills coffee on their computer, it takes time to \
+    fix.""",
+    
+    """You didn't back up your work from the day before and your computer \
+    crashes, time to do it all again!""",
+    
+    """Your servers are hacked by a member of the famous hacker group \
+    Inc0gnit0. Spend time fixing damages and instilling new data security \
+    methods.""",
+    
+    """A group of employees plan a surprise birthday party and insist on \
+    taking everyone out for the day."""
+]
+
+[[global]]
+name = "Retick This Turn"
+money_cost = 150
+productivity_cost = 7
+flavours = [
+    """After a successful charity dinner for your employees, everyone is \
+    reinvigorated to work again tomorrow!""",
+    
+    """Due to a bank error in your favour they accidently pay you twice. Your \
+    team are delighted and work overtime.""",
+    
+    """You buy lunch for all of your employees. They save money and gain \
+    productivity.""",
+    
+    """All of your employees are taught mindfulness during their breaks. They \
+    regain their energy and work like their lives depend on it."""
+]
+
+[[global]]
+name = "Gain 250 Money"
+money_cost = 150
+productivity_cost = 6
+flavours = [
+    """Your social media page gets seen by a wealthy entrepreneur Gill Bates. \
+    He decides to invest money into your project.""",
+    
+    """One of your employees wins a programming competition to design a new \
+    sorting algorithm. He donates his winnings to the project.""",
+    
+    """You win big on a scratchcard! What are the odds?""",
+    
+    """You sell your shares in a big multi-national company after their recent \
+    success.""",
+    
+    """You win a poker tournament in Vegas over the weekend. You feeling \
+    lucky, punk?""",
+    
+    """Your estimations for the quarter come in under budget, you have extra \
+    capital left for other projects.""",
+    
+    """You find a bug in Tech Giant Pear's website, they pay you their bug \
+    bounty.""",
+    
+    """You develop a new grossing app for mobile devices called Angry Cats, \
+    you make an amazing profit through sales."""
+]
+
+[[global]]
+name = "Move Forwards for the Cost of the Previous Zone"
+money_cost = 50
+productivity_cost = 3
+flavours = [
+    """You send your employees away on a training day. \
+    Move forward for the cost of the previous zone. """,
+    
+    """Learn a new technology to greatly increase progress. \
+    Move forward for the cost of the previous zone. """,
+    
+    """Design decisions made earlier in the project enable a burst \
+    of productivity move forward for the cost of the previous zone. """,
+    
+    """Having done data entry earlier in the project. \
+    Move forward for the cost of the previous zone. """,
+]
+
+[[Research]]
+name = "Spend Money to Gain 10 Productivity"
+money_cost = 100
+flavours = [
+    """You buy the whole office pizza for lunch resulting in \
+    a significant morale boost.""",
+    
+    """You buy the whole office new laptops resulting\
+    in a significant morale boost.""",
+    
+    """You spend a portion of capital considering how to\
+    decommission your product.""",
+    """You spend a portion of capital implementing a strong\
+    quality management process """,
+    """You visit the latest software development conference.\
+    You learn about test-first development. This helps catch bugs\
+    during development and save time in the  later stages of the project """,
+    """You take your employees out on a team-building day. \
+    Group interaction is a key determinant of group performance """,
+    """You hire a technician to come in an overclock all of\
+    your office computers.""",
+
+]
+
+[[Research]]
+name = "Spend Productivity to Gain 200 Money"
+productivity_cost = 5
+flavours = [
+    """Your customer's are desperate for a prototype of the system. \
+    They offer you a bonus payment if you get it done before schedule.  """,
+    
+    """You spend a day conducting an effective avoidance strategy plan. \
+    This means the probability that a risk will arise will be reduced. """,
+    
+    """You spend a day conducting an effective minimisation strategy. \
+    This means that the impact of any risks will be reduced.  """,
+    
+    """You spend a day conducting an effective contingency plan. \
+    This means that if the worst case happens, you have a strategy \
+    in place to deal with it.  """,
+    
+    """You spend a day conversing with your client in order to make sure the \
+    specification you are working from is as accurate as possible. """,
+    
+    """Project planning is an iterative process that starts when you create \
+    an initial project plan during the project startup phase. Whilst this \
+    costs time, it will inevitably save you money in the long run. """,
+    
+    """You create an algorithmic cost model which allows you to \
+    estimate the effort required to develop a system, \
+    this highlights where money should be best spent. """,
+]
+
+[[Research]]
+name = "Draw Two Cards"
+money_cost = 100
+productivity_cost = 5
+flavours = [
+    """You purchase a market research report of the the sector of the market \
+    you want to develop software for. Draw two cards.  """,
+    
+    """During the planning stage you create an efficient project schedule. \
+    The time between tasks is reduced and your team know what work \
+    is allocated to them. Draw two cards. """,
+
+    """You develop a maintenance plan to predict the requirements of the \
+    system, the maintenance costs and effort required. You are extra prepared \
+    for the following stages of the project. Draw two cards. """,
+    
+    """By spending the time to assess risk management, you get a better \
+    insight on how to prevent accidents happening that would slow \
+    your progress down. Draw two cards.  """,
+    
+    """You clarify your user requirements early on as to avoid any ambiguity \
+    with the customer later on. This reduces the risk of requirements \
+    confusion which can greatly slow down progress later on in the project. \
+    Draw two cards. """,
+    
+    """Your investors are happy with your progress so far, as you manage to \
+    stay under budget and ahead of schedule for the first quarter. \
+    Draw two cards. """,
+    
+    """You conduct market research in the form of a focus group. \
+    Draw two cards. """,
+    
+    """By spending the time to assess risk management, you get a better \
+    insight on how to prevent accidents happening that would slow your \
+    progress down. Draw two cards. """,
+    
+    """During the planning stage you create an efficient project schedule. \
+    The time between tasks is reduced and your team know what work \
+    is allocated to them. Draw two cards. """,
+    
+    """You purchase a market research report of the the sector of the market \
+    you want to develop software for. Draw two cards. """
+]
+
+[[Research]]
+name = "Gain 5 Productivity"
+money_cost = 50
+productivity_cost = 3
+flavours = [
+    """Your development team model the current system and efficiently analyse its \
+        weaknesses. You gain a better understanding of the software requirements. """,
+
+    """You establish you Functional Requirements, stating how your software \
+        should react to particular inputs. """,
+
+    """You establish you Functional Requirements, stating how your software should \
+        react to particular inputs. """,
+
+    """You establish domain requirements, these reflect the requirements of \
+        the domains and environments that your software will be used in. """,
+
+    """You aim to improve your software engineering processes \
+        by analysing it against the Capability Maturity Model (CMM). """,
+
+    """You split up your employees into development teams and testing teams. \
+        This will allow the teams to focus on specific areas of development. """,
+
+    """You aim to improve your software engineering processes by analysing \
+        it against the Capability Maturity Model (CMM). """,
+
+    """You establish non-functional requirements, stating the constraints \
+        on the services and functions provided by the software system. """
+]
+
+[[Research]]
+name = "Lose 5 Productivity"
+money_cost = 50
+productivity_cost = 3
+flavours = [
+    """After a heated discussion with your customer about the hardware \
+        requirements needed to run their desired software, you and your team \
+        lose precious time trying to come to an agreement. """,
+
+    """An employee phones in sick with food poisoning. """,
+
+    """An employee phones in to tell you their girlfriend has left them \
+        and they are too emotionally unstable to come to work. """,
+
+    """An employee cannot come to work today due to a dentist appointment. """,
+
+    """As more information about the system becomes available \
+        to the development team, it becomes necessary to spend the \
+        time to revise your schedule, plans and risk measures.  """,
+
+    """After a heated discussion with your customer about the hardware \
+        requirements needed to run their desired software, you and your \
+        team lose precious time trying to come to an agreement. """,
+
+    """As more information about the system becomes available to the \
+        development team, it becomes necessary to spend the time to revise \
+        your schedule, plans and risk measures.  """,
+
+    """As more information about the system becomes available to the \
+        development team, it becomes necessary to spend the time to revise \
+        your schedule, plans and risk measures.  """
+]
+
+[[Development]]
+name = "Gain 200 Money"
+money_cost = 150
+productivity_cost = 5
+flavours = [
+    """You use Scrum methods and complete a 2 week sprint producing \
+        some potentially shippable software, hitting targets the Scrum Master \
+        talks to shareholders and customers who decide to invest extra cash """,
+
+    """One of your employees develops their own testing framework, instead \
+        of buying a commercial testing framework, you save capital. """,
+
+    """By using a data flow model you are able to analyse the way \
+        your system uses data, you impress your investors. """,
+
+    """You carry out a security risk assessment of your project so far. \
+        Your exposure assessment allows you to save capital that otherwise \
+        would have been lost. """,
+
+    """You have built a strong concept of quality culture throughout your \
+        development team. As a result the software you're producing has become \
+        significantly better, generating further investment. """,
+
+    """A client asks for a feature extension on a project, you charge \
+        them for changing requirements from what was initially agreed """,
+
+    """A period of time in which an employee is not needed coincides \
+        with them taking an unpaid holiday """,
+
+    """An employee automates a part of your build process, \
+        saving you man hours building your product. """
+]
+
+[[Development]]
+name = "Lose 200 Money"
+money_cost = 150
+productivity_cost = 5
+flavours = [
+    """Use plan-driven development in which development is split \
+        into separate stages with outputs expected at specific times. \
+        Unfortunately you miss the deadline for one of these stages. """,
+
+    """Your decision to use plan-driven development backfires. \
+        Your system requirements change, you have to backtrack and \
+        change fundamental parts of the code. """,
+
+    """Your cost analysis turns out inconsistent with reality \
+        and you end up running over budget. """,
+
+    """Whilst travelling to a trade show to present your prototype, \
+        your company car breaks down """,
+
+    """A developer accidentally deletes some of their code without \
+        having committed it to version control. Lose money paying them \
+        for an extra day's work to repeat it. """,
+
+    """ Your development team underestimates how much funding they \
+        require for a part of the project."""
+]
+
+[[Development]]
+name = "Steal 150 Money"
+money_cost = 100
+productivity_cost = 5
+flavours = [
+    """A rival company uses object oriented design to their system. \
+        It's faster, power efficient and costs less money than your system. \
+        You decide to steal their design for you own. """,
+
+    """You win a contract over your competitor. Their invested resources \
+        become your gain as you take over where they left off """,
+
+    """Your rival companies boss is caught cheating on his long term wife. \
+        The bad press means a drop in his companies share prices and his old \
+        investors invest in your company. """,
+
+    """A rival company uses object oriented design to their system. \
+        It's faster, power efficient and costs less money than your system. \
+        You decide to steal their design for you own. """,
+
+    """You win a contract over your competitor. Their invested resources \
+        become your gain as you take over where they left off. """,
+
+    """Your rival companies boss is caught cheating on his long term wife. \
+        The bad press means a drop in his companies share prices and his old \
+        investors invest in your company. """
+]
+
+[[Development]]
+name = "Gain 10 Productivity"
+money_cost = 100
+productivity_cost = 7
+flavours = [
+    """Use test first development a method that has a very short development \
+        cycle where tests are written and then code is written to pass the tests. """,
+
+    """Your team quality review reports were much better than expectations. """,
+
+    """You use the Universal Modeling Language to easily demonstrate how \
+        aspects of your software will interact with each other. """,
+
+    """You look at software patterns to identify solutions to problems that \
+        others have had in the past allowing you to find solutions to bugs \
+        much quicker. """,
+
+    """You decide to reuse some old code you had from a previous project. """,
+
+    """By using test driven development, new tests are run automatically when \
+        new functionality is added, thus checking that the new functionality has \
+        not introduced errors. """,
+
+    """Whilst compiling code, you host an office nerf war. """,
+
+    """After visiting a software convention, you are inspired and think up a \
+        revolutionary idea for your system. """
+]
+
+[[Development]]
+name = "Lose 10 Productivity"
+money_cost = 100
+productivity_cost = 7
+flavours = [
+    """Using agile methods comes at a cost it requires constant communication \
+        between development teams and the customer. The customer has reduced its number \
+        of meetings and your development teams are losing focus and direction \
+        as a result. """,
+    """Your team quality review reports missed expectations, lose productivity. """,
+    """You spend way too much time developing models that could've \
+        been spent developing code. """,
+    """One of your programmers uploads their code to the version control \
+        server without testing, as their code is faulty lose productivity \
+        trying to fix this issue. """,
+    """Using agile methods comes at a cost it requires constant communication \
+        between development teams and the customer. The customer has reduced its \
+        number of meetings and your development teams are losing focus and \
+        direction as a result.  """,
+    """One of your programmers uploads their code to the version control \
+        server without testing, as their code is faulty lose productivity \
+        trying to fix this issue. """
+]
+
+[[Development]]
+name = "Steal 7 Productivity"
+money_cost = 100
+productivity_cost = 5
+flavours = [
+    """Your competitor uses pair programming where two programmers work together. \
+        One codes while the other assess the code simultaneously reducing mistakes and \
+        combining their experience. One of their employees left and gave you some \
+        insider knowledge of the code they have written. """,
+
+    """You quickly develop a user interface that looks suspiciously \
+        similar to another successful piece of software """,
+
+    """You see another software companies prototype at a trade show. \
+        After seeing this you rapidly develop some software to compete \
+        based on what you saw.  """,
+
+    """Your competitor uses pair programming where two programmers work together. \
+        One codes while the other assess the code simultaneously reducing mistakes and \
+        combining their experience. One of their employees left and gave you some \
+        insider knowledge of the code they have written. """,
+
+    """You quickly develop a user interface that looks suspiciously \
+        similar to another successful piece of software """,
+
+    """You see another software companies prototype at a trade show. \
+        After seeing this you rapidly develop some software to compete \
+        based on what you saw.  """
+]
+
+[[Testing]]
+name = "Gain 15 Productivity"
+money_cost = 150
+productivity_cost = 10
+flavours = [
+    """You implement automated unit testing, using a testing framework allowing \
+        tests to be ran and checked without manual intervention. """,
+
+    """Your testing team produces a testing suite for a section of your \
+        software allowing you to test your code rapidly. """,
+
+    """Your validation and defect tests are effective and you find your \
+        software runs perfectly without any bugs. """,
+
+    """You undergo defect testing on a section of your program checking for any \
+        areas of code which do not perform as expected. In this section the code \
+        passes first time, allowing you to focus on another area of the program.  """
+]
+
+[[Testing]]
+name = "Lose 15 Productivity"
+money_cost = 150
+productivity_cost = 10
+flavours = [
+    """One of your interface tests fail. And the program cannot interact with the \
+        rest of the system correctly, it can't get the data it needs. \
+        A lot of code is going to need to be reworked, demoralising the team. """,
+
+    """One of your programmers took a shortcut when writing their tests. \
+        By not checking for all possible exceptions that can occur their code \
+        needs to be rewritten """,
+
+    """It can be difficult to judge the completeness of a set of tests. \
+        Although you may have a lot of system tests, your test set does not \
+        provide complete coverage. """,
+
+    """During your validation testing you find that the software \
+        you have created does not meet its requirements. """
+]
+
+[[Testing]]
+name = "Steal 10 Productivity"
+money_cost = 150
+productivity_cost = 8
+flavours = [
+    """You get hold of an early alpha of your competitors software that isn't meant \
+        for public release. You reverse engineer their project in order to make a better \
+        version. """,
+
+    """Your rival company fails to use the evaluation and prevention testing models. \
+        You learn from their mistake and use these models to detect implementation \
+        faults in your code. """,
+
+    """You get hold of an early alpha of your competitors software that isn't \
+        meant for public release. You reverse engineer their project in order to \
+        make a better version. """,
+
+    """Your rival company fails to use the evaluation and prevention testing models. \
+        You learn from their mistake and use these models to detect implementation \
+        faults in your code. """
+]
+
+[[Testing]]
+name = "Gain 300 Money"
+money_cost = 200
+productivity_cost = 8
+flavours = [
+    """The partition tests proved successful with artificial data and investors \
+        were pleased no major errors were revealed at this point.  """,
+
+    """After user acceptance testing (UAT) the customer now wishes for a new \
+        addition to the system. Gain money as an investment to add functionality.  """,
+
+    """By using test driven development, the tests themselves act as a form of \
+        documentation for what your code should be doing. Investors provide you with \
+        more capital as they can accurately see how the project develops. """,
+
+    """As your tests effectively model the real world and appreciate sensitive \
+        cohesive models of data, your user tests pass quickly and you release \
+        an alpha your software. Gain money from initial sales.  """,
+]
+
+[[Testing]]
+name = "Lose 300 Money"
+money_cost = 200
+productivity_cost = 8
+flavours = [
+    """You purchase a new Testing Workbench, with many features such a \
+        Test Manager, Test data generator and a report generator. \
+        This is fundamental to the testing process. """,
+
+    """You have to commision a graphic designer to design an attractive \
+        User-Interface after user testing revealed that users found our current \
+        user interface confusing and unattractive. """,
+
+    """You undergo Architectural Validation which takes a top down look at \
+        the structure of the software system. You identify a structural \
+        flaw and have to purchase some off-shelf software. """,
+
+    """A beta test of your software is leaked to the public before being completed. \
+        Due to a significant amount of debugging that is still required, \
+        investors lose confidence in your project. """,
+]
+
+[[Testing]]
+name = "Lose a Turn"
+money_cost = 150
+productivity_cost = 7
+flavours = [
+    """Your software undergoes some serious validation testing in the form of a \
+        software inspection, which tests whether the software operates as intended. \
+        It comes to light that you software doesn't meet a key requirement. As a \
+        result you have to halt progress and redevelop a part of the software.  """,
+
+    """A member of your team launches a program which undertakes exhaustive \
+        testing, this checks every possible program execution. This is extremely \
+        time consuming for the testing effort. """,
+
+    """Testing can only show the presence of errors in a program, it cannot \
+        demonstrate that there are no remaining faults. Whilst you have to account \
+        for all possible exceptions, miss a turn.  """,
+
+    """When conducting user testing, you find that the user's working environment \
+        has a great effect on the reliability, performance and robustness of your \
+        system. miss a turn fixing this issue.  """,
+
+    """Your software undergoes some serious validation testing in the form of a \
+        software inspection, which tests whether the software operates as intended. \
+        It comes to light that you software doesn't meet a key requirement. As a \
+        result you have to halt progress and redevelop a part of the software.  """,
+
+    """A member of your team launches a program which undertakes exhaustive \
+        testing, this checks every possible program execution. This is extremely \
+        time consuming for the testing effort. """,
+
+    """Testing can only show the presence of errors in a program, it cannot \
+        demonstrate that there are no remaining faults. Whilst you have to account \
+        for all possible exceptions, miss a turn.  """,
+
+    """When conducting user testing, you find that the user's working environment \
+        has a great effect on the reliability, performance and robustness of your \
+        system. Miss a turn fixing this issue.  """
+]
+
+[[Testing]]
+name = "Go Forwards a Space"
+money_cost = 13
+productivity_cost = 250
+flavours = [
+    """You perform user testing, allowing the customer and its users to try out \
+        the software. It is a big success and you gain valuable input on potential \
+        improvements to the software. """,
+
+    """After defect testing you found undesirable system behaviours that has \
+        stopped any major future failures. """,
+
+    """You negotiate your test results and write a successful test report. \
+        Everything is working as intended so, you decide to accept the current system. """,
+
+    """Your system testing demonstrates all components of your system are \
+        integrated and your system runs efficiently as a whole. """
+]
+
+[[Testing]]
+name = "Go Back a Space"
+money_cost = 13
+productivity_cost = 250
+flavours = [
+    """Your software is undergoing release testing. This testing \
+        is designed to convince the customer that the software is ready for \
+        release and must show that the software delivers its requirements, \
+        has good performance and is stable. But your customer is not yet convinced \
+        that the software is ready.""",
+
+    """After an oposing company releases an open testing version of your software, \
+        the public become intrigued with the software and become eager \
+        for its release. Your company's software is now less \
+        of an interest to the public """,
+
+    """A hardware shipment to your office is captured and stole by pirates. """,
+
+    """You undertake black-box testing, where you predict outputs based off the \
+        inputs you put in. However your outputs did not match and your software \
+        failed the test. You have to re-program a section """,
+
+    """You conduct Fault-based testing but in doing so create more \
+        errors in your system.  """,
+
+    """Your fault prevention plan is inadequate and ambiguous. \
+        During a full run it backfires and corrupts your source files. """,
+
+    """You undertake black-box testing, where you predict outputs based off \
+        the inputs you put in. However your outputs did not match and your \
+        software failed the test. """,
+
+    """You conduct Fault-based testing but in doing so create more \
+        errors in your system. """
+]
+
+[[Maintenance]]
+name = "Gain 20 Productivity"
+money_cost = 200
+productivity_cost = 13
+flavours = [
+    """At the initial launch you decide to celebrate with your team. """,
+
+    """The software became a major success after its release and many users \
+        have complimented the system.  """,
+
+    """Happy with how the software has done since its launch, the company \
+        offers employees free dental care.  """,
+
+    """You implement a user feedback service that helps you identify bugs in \
+        your program. This saves you a lot of time finding bugs. """,
+]
+
+[[Maintenance]]
+name = "Lose 20 Productivity"
+money_cost = 200
+productivity_cost = 13
+flavours = [
+    """Jeeves Stobs accidently bumps into the fire alarm, conducting a fire drill. """,
+
+    """A patch to the software was released without proper testing and needed \
+        a quick re-release to fix some minor bugs. """,
+
+    """You are hacked by an unknown group who threaten to release all your \
+        users personal details. Lose X productivity while you resolve the issue. """,
+
+    """Upon inspection of your code you discover that your program \
+        inconsistently handles negative values. Sometimes the values are \
+        converted into positive ones, others are simply rejected. """,
+
+    """There is uproar amongst your customers. They are all demanding you add \
+        a function they were promised but you didn't deliver. """,
+
+    """A client finds a new bug in your software. You have to dedicate a \
+        few employees to fix this problem and efficiently maintain your product. """,
+]
+
+[[Maintenance]]
+name = "Steal 12 Productivity"
+money_cost = 200
+productivity_cost = 10
+flavours = [
+    """You find a bug in your competitor's software and publish it at \
+        techcrunch disrupt. """,
+
+    """A rival company suffers a negative public relations hit when they suffer a \
+        large client data leak. People flock to your company instead.  """,
+
+    """You conduct a data cleanup on your system. You analyse your \
+        records and values to improve their quality, putting your product \
+        ahead of your biggest competitors. """,
+
+    """ A new operating system was released recently and your software \
+        was quickly updated to work reliably on it being ahead of all \
+        competitor companies. """,
+]
+
+[[Maintenance]]
+name = "Gain 400 Money"
+money_cost = 250
+productivity_cost = 10
+flavours = [
+    """Your first quarter estimates beat market expectations \
+        and your stock price rockets.  """,
+
+    """Your latest update increases sales of your software. """,
+
+    """Whilst considering decommissioning your product, \
+        another company offers to buy the rights to your software.  """,
+
+    """A businessman had a meeting with your company about buying \
+        a bespoke version of the software for his company, \
+        this requires things such as a new GUI (graphical user interface). """
+]
+
+[[Maintenance]]
+name = "Lose 400 Money"
+money_cost = 250
+productivity_cost = 10
+flavours = [
+    """One of your live servers suffers a hardware failure.  """,
+
+    """A database failure forces you to temporarily hire a database admin \
+        to get everything back up and running.  """,
+
+    """Your project needs to upscale faster than you predicted, \
+        costing you more than anticipated to buy new hardware. """,
+
+    """A regional network failure at your data center causes downtime, \
+        costing you profits.  """,
+
+    """Flooding at your data center causes downtime, costing you profits.  """,
+
+    """You need to perform a migration to a more recent version of your platform, \
+        this requires hiring additional people to help. """,
+]
+
+[[Maintenance]]
+name = "Steal 250 Money"
+money_cost = 200
+productivity_cost = 10
+flavours = [
+    """You release a market changing update bring you new customers from \
+        competitive companies. """,
+
+    """A rival system attempts to release on a new operating system but it \
+        crashes horrendously. Their dedicated customers turn to you. """,
+
+    """You refine your product on a regular basis with quality reviews, improving \
+        your product with each new patch. You sales rocket ahead of your rival. """,
+
+    """A new operating system is released and is revolutionising the industry. \
+        Luckily you prepared for a change of operating system and easily release a \
+        version for it. Your competitors don't. """,
+]
+
+[[Maintenance]]
+name = "Lose a Turn"
+money_cost = 300
+productivity_cost = 15
+flavours = [
+    """Your main order of products goes on a Malaysian Airline \
+        and gets lost during its journey. """,
+
+    """You identify a catastrophic bug and all progress must \
+        stop while your entire team focuses on fixing the bug. """,
+
+    """Upon further inspection you realise you have missed \
+        a crucial requirement for your project. """,
+
+    """You choose to switch network security providers to Mashley Aaddison. \
+        As a result, thousands of your client's data is leaked to the public. """,
+
+    """Your main order of products goes on a Malaysian Airline \
+        and gets lost during its journey. """,
+
+    """You identify a catastrophic bug and all progress must \
+        stop while your entire team focuses on fixing the bug.""",
+
+    """Upon further inspection you realise you have missed \
+        a crucial requirement for your project.""",
+
+    """You choose to switch network security providers to Mashley Aaddison. \
+        As a result, thousands of your client's data is leaked to the public.""",
+]
+
+[[Maintenance]]
+name = "Go Back a Space"
+money_cost = 200
+productivity_cost = 10
+flavours = [
+    """Upon further inspection you realise you have missed a crucial requirement \
+        for your project. Go back a space whilst you make amends.""",
+
+    """You choose to switch network security providers to Mashley Aaddison. \
+        As a result, thousands of your client's data is leaked to the public.""",
+
+    """You undergo Architectural Transformation which involves \
+        radical changes to the software architecture.""",
+
+    """You must construct additional pylons.""",
+
+    """A bad review of your software was released online, \
+        specifying that stability was not a high priority across platforms.""",
+
+    """You use Dynamic metrics to assess how well you program performs. \
+        Currently the program is underperforming.""",
+]
+
+[[Maintenance]]
+name = "Go Forwards a Space"
+money_cost = 200
+productivity_cost = 10
+flavours = [
+    """One of your latest updates greatly improves user interaction with \
+        your software and results in fantastic reviews across the media. \
+        Go forwards one space. """,
+
+    """You perform some data cleanup and refactored a large portion of your code. \
+        Increasing its performance. Go forward a space. """,
+
+    """One of your latest updates greatly improves user interaction with \
+        your software and results in fantastic reviews across the media. \
+        Go forwards one space. """,
+
+    """You perform some data cleanup and refactored a large portion of your code. \
+        Increasing its performance. Go forward a space. """
+]
